@@ -4,6 +4,7 @@ function getWeather(){
     if(!city){
         alert('please enter the city')
         return;
+	console.log("git ssh testing")
     }
 
     const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
